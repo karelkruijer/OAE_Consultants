@@ -3,12 +3,20 @@ div{
     align-items: center;
 }
 h1 {
-    color:#bc1c7c ;
+    color: #bc1c7c !important ;
 }
 img {
     padding-left: 30px;
 }
 
+#johanKalkoven div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#johanKalkoven p:first-child {
+    font-size: 26px;
+}
 #NielsKruijer {
     display: flex;
 }
@@ -22,6 +30,14 @@ img {
 }
  
 @media (max-width:700px) {
+    #johanKalkoven {
+        display: flex;
+        flex-direction: column;
+    }
+    #johanKalkoven p:first-child {
+        font-size: 20px;
+    }
+
     #NielsKruijer img{
         width: 150px;
     }
