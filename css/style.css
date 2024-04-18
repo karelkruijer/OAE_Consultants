@@ -1,7 +1,7 @@
 
 body{
     font-family : 'Avenir' ;
-    background-color: #F4F2F2;
+    background-color: #F4F2F2 !important;
 }
 h1{
     margin-top: 100px;
@@ -17,12 +17,7 @@ h2 {
 h3 {
     font-size: 24px;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    max-width: 1200px;
-}
+
 .sticky {
     position: fixed;
     top: 2%;
@@ -761,10 +756,6 @@ padding: 20px;
     }
 }
 @media screen and (max-width: 800px) {
-    .container {
-        width: 95%;
-        flex-direction: column;
-    }
 
     h1{
         text-align: center;

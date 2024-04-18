@@ -2,12 +2,6 @@ html {
     scroll-behavior:smooth;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    max-width: 1200px;
-}
 
 .boek {
     border-bottom: 2px solid #1c7cbc ;

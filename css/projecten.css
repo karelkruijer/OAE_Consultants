@@ -4,12 +4,6 @@
     align-items: center;
     justify-content: center;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    max-width: 1200px;
-}
 
 h1 {
     color: #bc1c7c;
