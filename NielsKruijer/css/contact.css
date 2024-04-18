@@ -1,0 +1,70 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+body {
+    font-family : 'Avenir' ;
+    background-color: #F4F2F2;
+}
+
+h1 {
+    color: #bc1c7c ;
+    font-size: 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+form {
+    background-color: white;
+    padding: 80px;
+    box-shadow: 10px 10px 20px #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #1c7cbc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #105f73;
+}
+
+@media (max-width: 550px) {
+    form {
+        padding: 20px;
+    }
+}
