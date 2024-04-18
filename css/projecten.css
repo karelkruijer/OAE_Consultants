@@ -1,0 +1,35 @@
+#projecten {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+
+.project {
+    display: flex;
+    width: 500px;
+    margin: 50px;
+}
+
+.project img {
+    width: 150px;
+    object-fit:contain;
+}
+.roseLijn {
+    min-width: 3px;
+    margin: 10px;
+    background-color: #bc1c7c;
+    height: 200px;
+    
+}
+
+.project div  h4{
+    text-align: center;
+}
