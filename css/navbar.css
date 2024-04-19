@@ -5,7 +5,7 @@ body {
 
 nav {
     display: flex;
-    background-color: white;
+    background-color:transparent;
     padding: 10px;
     margin-bottom: 200px;
     z-index: 4;
@@ -18,11 +18,13 @@ nav {
     max-width: 1200px;
 }
 
-#wit {
-    background-color: white;
+#background-slider {
     width: 100vw;
-    height: 440px;
+    height: 600px;
     z-index: -1;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
     position: absolute;
 }
 
@@ -62,6 +64,7 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .nav-links li {
@@ -70,7 +73,7 @@ img {
 
 .nav-links a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .nav-links a {
@@ -78,15 +81,21 @@ img {
     color: black;
 }
 
+.NavWit {
+    color: white !important;
+}
 .nav-links a:hover {
     font-size: 2rem;
     color: #1c7cbc;
 }
 
+.NavWit:hover {
+    color: #1c7cbc !important;
+}
 /* Responsieve styling */
 @media (max-width: 800px) {
-    #wit {
-        height: 300px;
+    #background-slider{
+        height: 430px;
     }
     .container {
         width: 95%;
