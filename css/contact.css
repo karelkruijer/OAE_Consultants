@@ -1,63 +1,35 @@
 body {
-    font-family : 'Avenir' ;
-    background-color: #F4F2F2 !important;
+    font-family: 'Avenir';
+    background-image: url(../img/iStock-543183018.jpg);
 }
-
 h1 {
-    color: #bc1c7c ;
+    color: #bc1c7c;
     font-size: 40px;
 }
-
 p {
     font-size: 22px;
 }
-
-form {
-    background-color: white;
-    padding: 80px;
+.contact-info {
+    margin-right: 500px;
+    background-color: #F4F2F2 !important;
+    padding: 50px;
     box-shadow: 10px 10px 20px #ccc;
+    margin-bottom: 350px;
 }
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
+.contact-info span {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: black;
 }
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    width: 80%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button[type="submit"] {
-    background-color: #1c7cbc;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button[type="submit"]:hover {
-    background-color: #105f73;
-}
-
 @media (max-width: 550px) {
-    form {
+    .contact-info {
+        margin-right: 0px;
         padding: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-info {
+        width: 400px;
     }
 }

@@ -28,46 +28,42 @@
          </ul>
      </nav>
     
-    <div class="container contact-form">
-        <h1>contact</h1>
-        <p>Heb je een vraag? Maak bij voorkeur gebruik van ons contactformulier. Of stuur een berichtje via Whatsapp. We nemen zo spoedig mogelijk contact op
-        </p>
-        <span></span>
-        <form action="sendemail.php" method="POST">
-            <div class="form-group">
-                <label for="name">Naam:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Bericht:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button type="submit">Verstuur</button>
-        </form>
+     <div class="container">
+        <h1>Contact</h1>
+        <p>Heb je een vraag? Je kunt ons direct bereiken via:</p>
+        <div class="contact-info">
+            <span>Email: <a href="mailto:nk@oae.nl">nk@oae.nl</a></span>
+            <span>Telefoon: +31653650675</span>
+            <span>Locatie: Comeniusstraat 12, <br> 1817MA Alkmaar</span>
+        </div>
     </div>
 
 
 
-    <footer   id='contact'>
+    <div class="footer-container">
+    </div>
+    <footer id="contact">
         <div class="blur-section">
         </div>
         <div class="gradient-section">
         </div>
-        <div class="footer-info container">
+        <div class="footer-info">
             <img src="img/logo_oae.png" alt="logo_oae">
             <div class="footer-nav">
-                <a href="index.html">Home</a>
+                <a href="index.html" class="active">Home</a>
                 <a href="projecten.html">Projecten</a>
-                <a href="contact.html" class="active">Contact</a>
+                <a href="contact.html">Contact</a>
                 <a href="algemenevoorwaarden.html">Algemene voorwaarden</a>
                 <a href="boeken.html">Boeken</a>
+                <a href="FAQ.html">FAQ'S</a>
+                <a href="privacybeleid.html" id="privacy">Privacybeleid</a>
+                
             </div>
             <div class="contact-footer">
-                <br><br>
+                
+                <span>Comeniusstraat 12 <br>
+                    1817MA Alkmaar
+                </span>
                 <span>info@oae.nl</span>
                 <span>+31653650675</span>
             </div>

@@ -421,6 +421,10 @@ h3 {
 #supply-chain {
     margin-top: -300px;
 }
+#text-supply-chain {
+    display: flex;
+    flex-direction: column;
+}
 
 #supply-chain section div {
     display: flex;
@@ -432,7 +436,9 @@ h3 {
 }
 
 #supply-chain-img {
+    object-fit: cover;
     width: 300px;
+    height: 500px;
 }
 
 
@@ -690,8 +696,7 @@ h3 {
     }
 
     .carousel-item img {
-        max-width: 75%;
-        margin: 4% 10%;
+        margin: 13% 10%;
     }
 
     #ahrefOptimum {
@@ -845,39 +850,11 @@ h3 {
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     #projectenHref {
         margin-bottom: -240px;
         font-size: 18px;
         margin-left: 70%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-
-    h1 {
-        text-align: center;
-        font-size: 40px !important;
-        color: #bc1c7c !important;
-        margin-bottom: 75px;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 25px;
-    }
-
-    .nav-inner {
-        display: none;
-    }
-
-    #projectenHref {
-        display: flex;
-        justify-content: end;
-        margin-right: 10px;
-        margin-bottom: -220px;
-        font-size: 16px;
-        margin-left: 40%;
     }
 
     #supply-chain section div {
@@ -901,6 +878,50 @@ h3 {
     .supply-chain-klein-foto {
         object-fit: cover;
     }
+    #supply-chain img {
+        height: 100%;
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    h1 {
+        text-align: center;
+        font-size: 40px !important;
+        color: #bc1c7c !important;
+        margin-bottom: 50px;
+    }
+
+    .h1Wit {
+        margin-bottom: 150px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .oae-sticky {
+        padding-top: 0px;
+    }
+
+    .nav-inner {
+        display: none;
+    }
+
+    #projectenHref {
+        display: flex;
+        justify-content: end;
+        margin-right: 10px;
+        margin-bottom: -220px;
+        font-size: 16px;
+        margin-left: 40%;
+    }
+
+    #supply-chain img {
+        width: 360px;
+    }
 
     .schuine-box2 {
         height: 500px;
@@ -910,3 +931,9 @@ h3 {
         margin-left: 50%;
     }
 }
+@media (max-width:500px) {
+    .h1Wit {
+        margin-bottom: 50px;
+    }
+}
+
