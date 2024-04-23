@@ -21,10 +21,13 @@ p {
     margin-bottom: 10px;
     color: black;
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .contact-info {
         margin-right: 0px;
         padding: 20px;
+    }
+    body {
+        background-image: url(../img/iStock-543183017.jpg);
     }
 }
 
@@ -32,4 +35,5 @@ p {
     .contact-info {
         width: 400px;
     }
+    
 }

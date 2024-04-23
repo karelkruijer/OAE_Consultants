@@ -1,12 +1,13 @@
 document.querySelector('.hamburger-menu').addEventListener('click', function() {
     document.querySelector('.nav-links').classList.toggle('active');
+    document.querySelector('#background-slider').classList.toggle('active');
     document.querySelector('.hamburger-menu').classList.toggle('active');
 });
 
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
         'url("img/iStock-1328317040.jpg")',
-        'url("img/iStock-1298207802.jpg")',
+        'url("img/iStock-1249085781.jpg")',
         'url("img/iStock-1407976114.jpg")',
         'url("img/iStock-1481069966.jpg")'
     ];

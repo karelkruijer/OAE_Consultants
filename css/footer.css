@@ -117,12 +117,21 @@ a.active {
 
     .footer-nav a {
         font-size: 15px;
-        width: 40px;
+        width: 140px;
     }
 
     .contact-footer {
         display: flex;
         flex-direction: column;
+        margin-left: 0px;
+    }
+    .contact-footer span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #privacy {
+        margin-right: 0px;
     }
 }
 
@@ -142,11 +151,13 @@ a.active {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
     }
 
     .footer-nav a {
         font-size: 22px;
+        text-align: center;
     }
 
     .gradient-section {
@@ -157,7 +168,13 @@ a.active {
         font-size: 22px;
         width: 100%;
         margin-left: 0px;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .contact-footer span {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 }
