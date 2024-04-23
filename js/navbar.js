@@ -7,9 +7,9 @@ document.querySelector('.hamburger-menu').addEventListener('click', function() {
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
         'url("img/iStock-1328317040.jpg")',
-        'url("img/iStock-1249085781.jpg")',
         'url("img/iStock-1407976114.jpg")',
-        'url("img/iStock-1481069966.jpg")'
+        'url("img/iStock-1481069966.jpg")',
+        'url("img/iStock-1249085781.jpg")'
     ];
 
     let currentIndex = 0;
